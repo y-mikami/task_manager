@@ -1,0 +1,5 @@
+# このプロジェクトでは task_manager.py のみコミット
+# tasks.json はローカルデータのため無視
+*
+!.gitignore
+!task_manager.py
