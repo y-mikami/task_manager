@@ -1,5 +1,6 @@
-# このプロジェクトでは task_manager.py のみコミット
+# このプロジェクトでは task_manager.py と README.md をコミット
 # tasks.json はローカルデータのため無視
 *
 !.gitignore
 !task_manager.py
+!README.md

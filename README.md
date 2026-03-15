@@ -1,0 +1,37 @@
+# Task Manager（タスク管理ツール）
+
+ターミナルで使うシンプルなタスク管理ツールです。タスクの追加・一覧表示・完了・削除ができます。
+
+## 必要な環境
+
+- Python 3
+
+## 使い方
+
+```bash
+# タスクを追加
+python task_manager.py add <タスク名>
+
+# タスク一覧を表示
+python task_manager.py list
+
+# タスクを完了にする（ID を指定）
+python task_manager.py done <ID>
+
+# タスクを削除する（ID を指定）
+python task_manager.py delete <ID>
+```
+
+## 例
+
+```bash
+python task_manager.py add 買い物
+python task_manager.py add メール返信
+python task_manager.py list
+python task_manager.py done 1
+python task_manager.py delete 2
+```
+
+## データ
+
+タスクは同じフォルダ内の `tasks.json` に保存されます。
