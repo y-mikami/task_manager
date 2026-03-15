@@ -42,3 +42,7 @@ python task_manager.py delete 2
 - 2025/03 初版（GitHubで編集）
 - 2025/03 共同編集の練習
 - 2025/03 ローカルで追記
+
+## ブランチ練習で追加
+
+- この行は `add-readme-section` ブランチで追加しました。
